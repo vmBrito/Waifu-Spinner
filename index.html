@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+
+    <!--CABEÇA-->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Girador de Waifus</title>
+        <link rel="stylesheet" href="style.css">
+        <!--Fontes-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    </head>
+
+    <!--CORPO-->
+    <body>
+        <header>
+            <h1>Girador de Waifus🌹</h1>
+        </header>
+        
+        <main>
+            <div class="container">
+                <h3>Selecione as caracteristicas:</h3>
+
+                <div>
+                    <p><strong>Sexo:</strong></p>
+                    <input type="radio" name="radsex" id="masc" checked class="opcoes">
+                    <label for="masc">Macho</label>
+                    <input type="radio" name="radsex" id="fem" class="opcoes">
+                    <label for="fem">Femea</label>
+                </div>
+
+                <div>
+                    <p><strong>Preferencias:</strong></p>
+                    <input type="radio" name="radt" id="gost" checked class="opcoes">
+                    <label for="gost">Gostoso(a)</label>
+                    <input type="radio" name="radt" id="bomb" class="opcoes">
+                    <label for="bomb">Bombados(a) fodas</label>
+                </div>
+
+                <p>
+                    <input type="button" value="Roletar" onclick="clicar()" id="butao">
+                </p>
+            </div>
+
+            <div id="dados">
+                <strong>preencha os dados acima para ver a waifu!</strong>
+            </div>
+        </main>
+
+        <footer>
+            <p><strong>&copy;Xopper</strong></p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
